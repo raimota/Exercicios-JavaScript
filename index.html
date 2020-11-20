@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" text="text/css">
+    <script src="declaracoes.js"></script>
+    <title>Exercícios</title>
+</head>
+
+<body>
+    <section id="container">
+
+        <div class="cx">
+            1) Crie um script que solicite ao usuário o valor total de uma compra e a quantidade de parcelas.
+            O sistema deve imprimir o valor das parcelas de acordo com os juros da tabela abaixo.
+            <div>
+                </br>
+                <table border="1">
+                    <tr>
+                        <th>Número de Parcelas</th>
+                        <th>% de juros</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>7</td>
+                    </tr>
+                </table>
+                </br>
+                <button type="button">Ativar</button>
+            </div>
+        </div>
+        <div class="cx">
+            2) Faça um script que receba um número inteiro e mostre um alerta dizendo se esse número é par ou ímpar.
+            </br></br>
+            <button type="button">Ativar</button>
+        </div>
+        <div class="cx">
+            3) Faça um script que receba dois números inteiros e mostre qual é o maior ou se são iguais.
+            </br></br>
+            <button type="button">Ativar</button>
+        </div>
+        <div class="cx">
+            4) Faça um script que receba três notas de prova. As notas podem ser de 0~10. Calcule e mostre a média
+            do aluno
+            junto com o conceito conforme regras abaixo
+            </br>
+            <div>
+                </br>
+                <table border="1">
+                    <tr>
+                        <th>Média</th>
+                        <th>Conceito</th>
+                    </tr>
+                    <tr>
+                        <td>>=6</td>
+                        <td>Aprovado</td>
+                    </tr>
+                    <tr>
+                        <td>>=3 e < 6</td>
+                        <td>Exame</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <3 </td>
+                        <td>Reprovado</td>
+                    </tr>
+                </table>
+                </br>
+                <button type="button">Ativar</button>
+            </div>
+            </div>
+            <div class="cx">
+                5) Elabore um script que leia o valor de um produto e o código da modalidade de pagamento que o usuário
+                escolheu. Exiba um alerta com o valor real do produto e o valor a ser pago (conforme tabela),
+                </br>
+                <div>
+                    </br>
+                    <table border="1">
+                        <tr>
+                            <th>Código</th>
+                            <th>Modalidade</th>
+                            <th>Condições de pagamento</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>À vista</td>
+                            <td>10% de desconto</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Débito</td>
+                            <td>2 % de juros</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Crédito</td>
+                            <td>7 % de juros</td>
+                        </tr>
+                    </table>
+                    </br>
+                    <button type="button">Ativar</button>
+                </div>
+            </div>
+            <div class="cx">
+                6) Faça um script que leia a altura, o peso e o sexo de uma pessoa. Mostre em um alerta o IMC
+                (Índice de Massa Corporal) da pessoa e a categoria na qual se enquadra segundo a OMS (Organização
+                Mundial de Saúde).
+                A fórmula para o cálculo do IMC é dada por IMC = peso / (altura * altura) .
+                A tabela a seguir mostra as faixas para homens e mulheres.
+                </br></br>
+                <table border="1">
+                    <tr>
+                        <th>Condição</th>
+                        <th>IMC em Mulheres</th>
+                        <th>IMC em Homens</th>
+                    </tr>
+                    <tr>
+                        <td>abaixo do peso</td>
+                        <td>
+                            < 19,1</td>
+                        <td>
+                            < 20,7</td>
+                    </tr>
+                    <tr>
+                        <td>peso normal</td>
+                        <td>19,1 - 25,8</td>
+                        <td>20,7 - 26,4</td>
+                    </tr>
+                    <tr>
+                        <td>Marginalmente acima do peso</td>
+                        <td>25,8 - 27,3</td>
+                        <td>26,4 - 27,8</td>
+                    </tr>
+                    <tr>
+                        <td>Acima do peso ideal</td>
+                        <td>27,3 - 32,3</td>
+                        <td>27,8 - 31,1</td>
+                    </tr>
+                    <tr>
+                        <td>obeso</td>
+                        <td> > 32,3</td>
+                        <td> > 31,1</td>
+                    </tr>
+                </table>
+                </br>
+                <button type="button">Ativar</button>
+            </div>
+            <div class="cx">
+                7) Crie um script que calcule o imposto de renda de um salário informado, respeitando a faixa
+                salarial conforme apresentado na tabela. O resultado é a alíquota sobre o salário informado.
+                Apresente um alerta com este valor.
+                </br></br>
+                <table border="1">
+                    <tr>
+                        <th>Faixa salarial</th>
+                        <th>Alíquota</th>
+                    </tr>
+                    <tr>
+                        <td>Até R$ 1.434</td>
+                        <td>0 % (isento)</td>
+                    </tr>
+                    <tr>
+                        <td>De R$ 1.434 a R$ 2150</td>
+                        <td>7,5%</td>
+                    </tr>
+                    <tr>
+                        <td>De R$ 2.150 a R$ 2.866</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>De R$ 2.866 a R$ 3.582</td>
+                        <td>22,5%</td>
+                    </tr>
+                    <tr>
+                        <td>Acima de R$ 3.582</td>
+                        <td>27,5%</td>
+                    </tr>
+                </table>
+                </br>
+                <button type="button">Ativar</button>
+            </div>
+
+        </div>
+        <div class="cx">
+            8) Crie uma calculadora que aceita dois valores digitados.
+            O usuário também deverá informar um código relativo a operação que ele deseja efetuar.
+            </br>
+            <div>
+                </br>
+                <table border="1">
+                    <tr>
+                        <th>Código</th>
+                        <th>Operação</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Soma</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Subtração</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Multiplicação</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Divisão</td>
+                    </tr>
+                </table>
+                </br>
+                <button type="button">Ativar</button>
+            </div>
+        </div>
+
+        <script src="eventos.js"></script>
+    </section>
+</body>
+
+</html>

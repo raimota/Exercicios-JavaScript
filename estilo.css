@@ -1,0 +1,33 @@
+.cx{
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    height: auto;
+    border: 2px solid black;
+    background-color: #7dacbd;
+    text-align: justify;
+    border-radius: 25px;
+    font-family: 'Times New Roman';
+    color: black;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 12pt;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 10px;
+}
+html{
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+#container{
+    width: 400px;
+    margin: 10px auto;
+}
+
+button:active{
+    background-color: red;
+    border: red;
+}
